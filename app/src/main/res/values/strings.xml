@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Generic Android Game Engine (GAGE))</string>
+
+    <string name="ERROR_TAG">Gage Error: </string>
+	<string name="WARNING_TAG">Gage Warning:</string>
+    
+</resources>

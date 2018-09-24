@@ -1,0 +1,44 @@
+{
+  "assets": [
+    {
+      "type": "Bitmap",
+      "name": "Platform",
+      "file": "img/Platform1.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "Ground",
+      "file": "img/Ground.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "RightArrow",
+      "file": "img/RightArrow.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "RightArrowSelected",
+      "file": "img/RightArrowSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "LeftArrow",
+      "file": "img/LeftArrow.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "LeftArrowSelected",
+      "file": "img/LeftArrowSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "UpArrow",
+      "file": "img/UpArrow.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "UpArrowSelected",
+      "file": "img/UpArrowSelected.png"
+    }
+  ]
+}

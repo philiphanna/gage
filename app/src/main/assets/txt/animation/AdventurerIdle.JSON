@@ -1,0 +1,12 @@
+{
+  "spritesheet" : "img/AdventurerIdle.png",
+  "numRows" : 1,
+  "numColumns" : 10,
+  "animations": [
+    {
+      "name": "AdventurerIdle",
+      "totalPeriod" : 1.0,
+      "loopAnimation" : true
+    }
+  ]
+}

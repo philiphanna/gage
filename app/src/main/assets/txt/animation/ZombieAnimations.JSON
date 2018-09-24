@@ -1,0 +1,28 @@
+{
+  "spritesheet" : "img/ZombieSpritesheet.png",
+  "numRows" : 3,
+  "numColumns" : 10,
+  "animations": [
+    {
+      "name": "ZombieIdle",
+      "startFrame" : 0,
+      "endFrame" : 7,
+      "totalPeriod" : 1.0,
+      "loopAnimation" : true
+    },
+    {
+      "name": "ZombieWalk",
+      "startFrame" : 10,
+      "endFrame" : 19,
+      "totalPeriod" : 1.0,
+      "loopAnimation" : true
+    },
+    {
+      "name": "ZombieAttack",
+      "startFrame" : 20,
+      "endFrame" : 27,
+      "totalPeriod" : 1.0,
+      "loopAnimation" : false
+    }
+  ]
+}

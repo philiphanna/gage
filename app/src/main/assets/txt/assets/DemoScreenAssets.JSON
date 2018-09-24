@@ -1,0 +1,74 @@
+{
+  "assets": [
+    {
+      "type": "Bitmap",
+      "name": "InputDemoIcon",
+      "file": "img/InputDemoIcon.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "InputDemoIconSelected",
+      "file": "img/InputDemoIconSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "AssetDemoIcon",
+      "file": "img/AssetDemoIcon.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "AssetDemoIconSelected",
+      "file": "img/AssetDemoIconSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "ScreenDemoIcon",
+      "file": "img/ScreenDemoIcon.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "ScreenDemoIconSelected",
+      "file": "img/ScreenDemoIconSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "GameObjectDemoIcon",
+      "file": "img/GameObjectDemoIcon.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "GameObjectDemoIconSelected",
+      "file": "img/GameObjectDemoIconSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "ViewportDemoIcon",
+      "file": "img/ViewportDemoIcon.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "ViewportDemoIconSelected",
+      "file": "img/ViewportDemoIconSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "AnimationDemoIcon",
+      "file": "img/AnimationDemoIcon.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "AnimationDemoIconSelected",
+      "file": "img/AnimationDemoIconSelected.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "BackArrow",
+      "file": "img/BackArrow.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "BackArrowSelected",
+      "file": "img/BackArrowSelected.png"
+    }
+  ]
+}

@@ -1,0 +1,14 @@
+{
+  "assets": [
+    {
+      "type": "Bitmap",
+      "name": "UpArrow",
+      "file": "img/UpArrow.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "UpArrowSelected",
+      "file": "img/UpArrowSelected.png"
+    }
+    ]
+}

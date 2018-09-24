@@ -1,0 +1,11 @@
+{
+  "name": "SmokeEmitter",
+  "emitterMode": "Continuous",
+  "particleSettings": "txt/particle/SmokeParticle.JSON",
+  "minParticleDensity": 1,
+  "maxParticleDensity": 1,
+  "blendMode": "Alpha",
+  "accelerationMode": "NonAligned",
+  "velocityBias": 0.0,
+  "applyGravity": false
+}

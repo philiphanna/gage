@@ -1,0 +1,12 @@
+{
+  "spritesheet" : "img/AdventurerJumping.png",
+  "numRows" : 1,
+  "numColumns" : 10,
+  "animations": [
+    {
+      "name": "AdventurerJumping",
+      "totalPeriod" : 1.0,
+      "loopAnimation" : false
+    }
+  ]
+}
