@@ -16,6 +16,13 @@ import uk.ac.qub.eeecs.gage.world.GameScreen;
 public class CardDemoScreen extends GameScreen {
 
     // /////////////////////////////////////////////////////////////////////////
+    // Properties
+    // /////////////////////////////////////////////////////////////////////////
+
+    // Define a card to be displayed
+    private Card card;
+
+    // /////////////////////////////////////////////////////////////////////////
     // Constructors
     // /////////////////////////////////////////////////////////////////////////
 
@@ -26,6 +33,12 @@ public class CardDemoScreen extends GameScreen {
      */
     public CardDemoScreen(Game game) {
         super("CardScreen", game);
+
+        // Load the various images used by the cards
+        mGame.getAssetManager().loadAssets("txt/assets/CardDemoScreenAssets.JSON");
+
+        // Create a new, centered card
+        card = new Card(mDefaultLayerViewport.x, mDefaultLayerViewport.y, this);
     }
 
     // /////////////////////////////////////////////////////////////////////////
@@ -41,6 +54,11 @@ public class CardDemoScreen extends GameScreen {
     public void update(ElapsedTime elapsedTime) {
         // Process any touch events occurring since the last update
         Input input = mGame.getInput();
+
+        // Update the card
+        card.angularVelocity = 40.0f;
+
+        card.update(elapsedTime);
     }
 
     /**
@@ -52,5 +70,9 @@ public class CardDemoScreen extends GameScreen {
     @Override
     public void draw(ElapsedTime elapsedTime, IGraphics2D graphics2D) {
         graphics2D.clear(Color.WHITE);
+
+        // Draw the card
+        card.draw(elapsedTime, graphics2D,
+                mDefaultLayerViewport, mDefaultScreenViewport);
     }
 }

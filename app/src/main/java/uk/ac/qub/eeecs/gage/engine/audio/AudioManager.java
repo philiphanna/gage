@@ -128,6 +128,7 @@ public class AudioManager {
         // Start playback of the new music
         mCurrentMusic = music;
         mCurrentMusic.setVolume(mMusicVolume);
+        mCurrentMusic.setLopping(true);
         mCurrentMusic.play();
     }
 

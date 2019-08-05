@@ -64,6 +64,21 @@ public class BoundingBox {
     }
 
     /**
+     * Set the bounding box values
+     *
+     * @param x          Centre x location of the box
+     * @param y          Centre y location of the box
+     * @param halfWidth  Half width of the box
+     * @param halfHeight Half height of the box
+     */
+    public void set(float x, float y, float halfWidth, float halfHeight) {
+        this.x = x;
+        this.y = y;
+        this.halfWidth = halfWidth;
+        this.halfHeight = halfHeight;
+    }
+
+    /**
      * Return the width of the bounding box
      *
      * @return Width of the bounding box

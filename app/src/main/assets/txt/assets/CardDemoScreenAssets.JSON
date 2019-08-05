@@ -1,0 +1,64 @@
+{
+  "assets": [
+    {
+      "type": "Bitmap",
+      "name": "CardBackground",
+      "file": "img/CardBackground.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "CardPortrait",
+      "file": "img/CardPortrait.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "1",
+      "file": "img/1.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "2",
+      "file": "img/2.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "3",
+      "file": "img/3.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "4",
+      "file": "img/4.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "5",
+      "file": "img/5.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "6",
+      "file": "img/6.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "7",
+      "file": "img/7.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "8",
+      "file": "img/8.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "9",
+      "file": "img/9.png"
+    },
+    {
+      "type": "Bitmap",
+      "name": "0",
+      "file": "img/0.png"
+    }
+    ]
+}
